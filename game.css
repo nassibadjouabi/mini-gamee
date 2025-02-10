@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #0f0568;
+    flex-direction: column;
+     padding: 20px;
+      align-items: center;     
+  }
+  .container {
+    display: flex; /* Utilise Flexbox pour aligner horizontalement */
+    justify-content: center; /* Centre les éléments horizontalement */
+    gap: 30px; /* Espace entre les éléments */
+    margin-top: 50px; /* Espace au-dessus du jeu */
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
+ 
+  
+  h1 {
+    margin-top: 20px; /* Pousse le titre plus haut */
+    font-size: 70px;
+    color: rgb(196, 218, 98);
+  }
+  
+  .choices button {
+    
+    font-size: 35px;
+    padding: 10px 55px;
+    
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    background-color: #5eac75;
+    color: #fff;
+    transition: background-color 0.3s;
+    margin: 100px 80px;
+    box-shadow: 0 0 10px rgba(241, 228, 228, 0.1);
+  }
+  .choices {
+    margin:3S0px 0;
+  }
+  
+  .choices button:hover {
+    background-color: #378141;
+  }
+  .result p {
+    font-size: 25px;
+    color: #f4f4f4;
+}
+.result-text p {
+    font-size: 35px;
+    color: #f4f4f4;
+}
+  .result {
+    margin-top: 30px;
+    text-align: left;
+  }
+  #computer-choice {
+    font-weight: bold;
+    color: #bdd7f5;
+  }
+  #reset {
+    margin-top: 40px;
+    padding: 10px 50px;
+    font-size: 35px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #dc3545;
+    color: #fff;
+    transition: background-color 0.3s;
+  }
+  
+  #reset:hover {
+    background-color: #c82333;
+  }
